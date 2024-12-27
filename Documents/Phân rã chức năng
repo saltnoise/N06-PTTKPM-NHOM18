@@ -1,0 +1,9 @@
+Các chức năng sẽ có trong ứng dụng bao gồm:
+
+Quản lý danh mục sách: Thêm, sửa, xóa sách và có thể cập nhật được trạng thái sách (đã mượn,chưa bị mượn)
+
+Quản lý người dùng: Đăng ký tài khoản, theo dõi lịch sử hoạt động.
+
+Hệ thống mượn trả: Quản lý mượn sách, trả sách, có hệ thống thông báo và áp dụng hình phạt với sách trễ hạn.
+
+Tìm kiếm và tra cứu: Cung cấp công cụ tìm kiếm sách theo tiêu chí .
