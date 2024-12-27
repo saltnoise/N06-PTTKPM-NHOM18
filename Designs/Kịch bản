@@ -1,1 +1,69 @@
+-Người dùng tìm kiếm và mượn sách:
 
+Input: Từ khóa tìm kiếm, ID sách.
+
+Output: Danh sách sách phù hợp và trạng thái mượn.
+
+Kịch bản:
+
+Bạn đọc đăng nhập vào hệ thống.
+
+Nhập từ khóa tìm kiếm vào thanh tìm kiếm.
+
+Hệ thống trả về danh sách sách phù hợp.
+
+Chọn sách và gửi yêu cầu mượn.
+
+Hệ thống kiểm tra trạng thái sách.
+
+Nếu sách khả dụng, yêu cầu được xác nhận, và sách được đánh dấu "đã mượn".
+
+-Thêm sách mới:
+
+Input: Thông tin sách (tên, tác giả, thể loại, năm xuất bản).
+
+Output: Xác nhận sách được thêm thành công.
+
+Kịch bản:
+
+Quản trị viên đăng nhập vào hệ thống.
+
+Chọn chức năng "Thêm sách mới".
+
+Nhập thông tin chi tiết của sách.
+
+Hệ thống lưu thông tin sách vào cơ sở dữ liệu.
+
+Hiển thị danh sách sách đã cập nhật.
+
+-Xác nhận trả sách:
+
+Input: ID sách, ID người dùng.
+
+Output: Xác nhận sách đã được trả.
+
+Kịch bản:
+
+Thủ thư đăng nhập vào hệ thống.
+
+Chọn chức năng "Xác nhận trả sách".
+
+Nhập ID sách và ID người dùng.
+
+Hệ thống kiểm tra thông tin và cập nhật trạng thái sách.
+
+Hiển thị thông báo "Xác nhận trả sách thành công".
+
+-Thông báo khi quá hạn và áp dụng hình phạt:
+
+Input: Danh sách sách mượn quá hạn.
+
+Output: Gửi thông báo phạt đến người dùng.
+
+Kịch bản:
+
+Hệ thống tự động quét danh sách sách mượn quá hạn.
+
+Gửi thông báo nhắc nhở đến phần thông báo của của tài khoản người dùng.
+
+Áp dụng hình phạt (nếu có) và cập nhật vào lịch sử người dùng.
